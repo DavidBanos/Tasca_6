@@ -2,27 +2,30 @@
 <meta charset="utf-8">
 <html>
 <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <title>Nombres primers</title>
     <script src="js/num_primers.js"></script>
 </head>
 <body>
     <h1>Primers</h1>
-     <table class="table table-hover" style="width:auto">
-    <tr>
-        <td>
-    <script>
-        var n=prompt("Introdueix un número");
-        for(var i=1; i<=n; i++){
-            if(esprimer(i)){
-                document.write(i+" és primer<br>");
-                
-            }
-            
-        }
-        
-    </script>
-    </td>
-    </tr>
+    <table class="table table-hover">
+        <tr>
+            <td>
+                <script>
+                    var n=prompt("Introdueix un número");
+                    for(var i=1; i<=n; i++){
+                        if(esprimer(i)){
+                            document.write("<tr><td>"+i+" és primer</td></tr>");
+                            
+                        }
+                        
+                    }
+                    
+                </script>
+            </td>
+        </tr>
     </table>
 </body>
 
