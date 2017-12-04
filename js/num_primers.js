@@ -7,6 +7,6 @@ function esprimer(numero) {
         x--;
     }
     return true;
-  
-  
+    
+    
 }
